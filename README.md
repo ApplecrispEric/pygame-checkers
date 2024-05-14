@@ -1,8 +1,118 @@
-# pygame-checkers
-This is a peer-to-peer local networked game of checkers that I built with Python and pygame.
+<a name="readme-top"></a>
 
-Although I was able to get multiplayer support working through localhost, I was unable to
-play a game using my actual IPv4. I don't know if this was a firewall issue or there is a fault in the codebase.
-I can, however, guarantee that the local modes work as intended.
 
-- [Pygame Documentation](https://www.pygame.org/docs/)
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+<div align="center">
+  <a href="https://github.com/PeanutButterRat/pygame-checkers">
+    <img src="assets/images/red_king.png" alt="Logo" height="80">
+  </a>
+  <h3 align="center">Pygame Checkers</h3>
+  <p align="center">
+    The classic game of checkers implemted in Python.
+    <br />
+    <br />
+    <a href="https://github.com/PeanutButterRat/pygame-checkers/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/PeanutButterRat/pygame-checkers/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![Main Menu](/assets/readme/main-menu.jpg)
+
+Pygame Checkers is a fully functional GUI version of checkers that you can play with other people. It supports local play against another person or CPU but also includes LAN functionality to play with another person over the same network.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get Peanut Butter up and running, follow these simple steps shown below.
+
+### Prerequisites
+
+Before we get started, you will need to download some dependencies.
+1. [Python](https://www.python.org/): Version 3.10+. You can most likely use a different version of Python, but I can guarantee it runs with at least Python 3.10.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/PeanutButterRat/pygame-checkers.git
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+To play Pygame checkers, run `main.py` or the pre-bundled executable.
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with and present your idea there. I don't forsee anyone feeling inspired enough to contribute, but any contributions are greatly appreciated if you do decide to do so!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Eric Brown - [GitHub](https://github.com/PeanutButterRat) - ebrown5676@gmail.com
+
+Project Link: [https://github.com/PeanutButterRat/pygame-checkers](https://github.com/PeanutButterRat/pygame-checkers)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/PeanutButterRat/pygame-checkers/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/eric-brown-b0a258202/
