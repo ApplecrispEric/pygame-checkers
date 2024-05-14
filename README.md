@@ -63,22 +63,53 @@ To get Peanut Butter up and running, follow these simple steps shown below.
 
 Before we get started, you will need to download some dependencies.
 1. [Python](https://www.python.org/): Version 3.10+. You can most likely use a different version of Python, but I can guarantee it runs with at least Python 3.10.
+2. [Pygame](https://www.pygame.org/). To install pygame, simply run `pip install pygame` in a terminal.
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo.
    ```sh
    git clone https://github.com/PeanutButterRat/pygame-checkers.git
    ```
 
+2. Run `main.py`.
+   ```sh
+   cd pygame-checkers  # You should now be in the repo directory.
+   python src/main.py
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To play Pygame checkers, run `main.py` or the pre-bundled executable.
+1. To play Pygame checkers, run `main.py` or the pre-bundled executable. After running the program, you should be greeted with the screen shown below.
 
+<div align="center">
+  <img src="/assets/readme/main-menu.jpg" alt="Main Menu" width="450"/>
+  <em><p>The main menu.</p><em>
+</div>
+
+2. To play locally, click on `Local` which should greet you with some options for configuring the intial board state. `Human Player` will allow two players to play on the same computer while `CPU` will pit you against my the simple AI built for the game.
+
+<div align="center">
+  <img src="/assets/readme/options.png" alt="Options Menu" width="450"/>
+  <em><p>The options menu.</p><em>
+</div>
+
+3. To play over the local network, click on `Host` to create a session or `Join` to join a session. `Join` will bring you to a screen where you can input the host's IPv4 address. The easiest way is find the address is to use `ipconfig` for Windows users.
+
+<div align="center">
+  <img src="/assets/readme/join.png" alt="Join Menu" width="450"/>
+  <em><p>Here the user can input the host's IPv4 address.</p><em>
+</div>
+
+4. Once in a game, you can click on a pawn to move it during your turn. Upon reaching the opposite side of the board, your pawn will turn into a king allowing it to move in all diagonal directions. To make multiple jumps, perform each jump individually before ending your turn. At the end of your turn, you can click `End Turn` to give control over to the other player. Right-click will cancel your current move if you change your mind mid-jump. Finally, `Forfeit` will end the game and give victory to the opponent.
+
+<div align="center">
+  <img src="/assets/readme/ingame.jpg" alt="Join Menu" width="450"/>
+  <em><p>A standard checkers game in-progress.</p><em>
+</div>
 
 <!-- CONTRIBUTING -->
 ## Contributing
