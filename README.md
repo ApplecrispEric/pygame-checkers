@@ -103,7 +103,7 @@ Alternatively, you can simply download the executable from the releases page fou
 3. To play over the local network, click on `Host` to create a session or `Join` to join a session. `Join` will bring you to a screen where you can input the host's IPv4 address. The easiest way is find the address is to use `ipconfig` for Windows users.
 
 <div align="center">
-  <img src="/assets/readme/join.png" alt="Join Menu" width="450"/>
+  <img src="/assets/readme/join.PNG" alt="Join Menu" width="450"/>
   <em><p>Here the user can input the host's IPv4 address.</p><em>
 </div>
 
