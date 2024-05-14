@@ -11,7 +11,7 @@
   </a>
   <h3 align="center">Pygame Checkers</h3>
   <p align="center">
-    The classic game of checkers implemted in Python.
+    The classic game of checkers implemented in Python.
     <br />
     <br />
     <a href="https://github.com/PeanutButterRat/pygame-checkers/issues">Report Bug</a>
@@ -57,7 +57,7 @@ Pygame Checkers is a fully functional GUI version of checkers that you can play 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get Peanut Butter up and running, follow these simple steps shown below.
+To get Pygame Checkers up and running, follow these simple steps shown below.
 
 ### Prerequisites
 
@@ -77,6 +77,9 @@ Before we get started, you will need to download some dependencies.
    cd pygame-checkers  # You should now be in the repo directory.
    python src/main.py
    ```
+
+Alternatively, you can simply download the executable from the releases page found [here](https://github.com/PeanutButterRat/pygame-checkers/releases/tag/1.0.0-stable) if you are running Windows.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
